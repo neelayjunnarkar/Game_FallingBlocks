@@ -1,4 +1,4 @@
-package Game_FallingBlocks.Game.src.game;
+package fallingBlocks;
 
 import java.awt.Color;
 import java.awt.Graphics;

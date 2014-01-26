@@ -67,7 +67,7 @@ public class Main extends JPanel implements KeyListener {
 		button = new Button(this);
 		ground = new Platform(0, 522, frameW, 50);
 		player = new Player(this, random.nextInt(780)+10, 498, 20, 20);
-		manager = new EnemyManager(this, 1);
+		manager = new EnemyManager(this, 10);
 	}
 	
 	public void paint(Graphics g){
